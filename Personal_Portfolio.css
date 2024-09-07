@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+
+.header {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #5c06a3;
+    color: #fff;
+}
+
+.header h1 {
+    font-size: 2.5em;
+}
+
+.tagline {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #ccc;
+}
+
+
+.about {
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.bio {
+    max-width: 600px;
+}
+
+
+.skills {
+    margin: 40px 0;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+
+.projects {
+    margin: 40px 0;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+.resume {
+    margin: 40px 0;
+}
+
+.resume .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+.contact {
+    margin: 40px 0;
+}
+
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px 0;
+    background-color: #2f5e81;
+    color: #fff;
+}
